@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./sample.js"></script>
+    <title>Jquery</title>
+  </head>
+  <body>
+    <div class="parentcontainer">
+      <p id="sample">Jquery</p>
+      <ul class="list">
+        <li class="list-item">1</li>
+        <li class="list-item">2</li>
+        <li class="list-item" id="third">3</li>
+        <li class="list-item">4</li>
+      </ul>
+      <div>
+        <label>Enter your task</label>
+        <input id="task" name="task" type="text"/><br><br>
+        <label>completed &nbsp;</label>
+        Yes<input type="radio" name="completed" value=true>
+        No<input type="radio" name="completed" value=false><br><br>
+      </div>
+      <button id="addtask">Add Task</button><br><br>
+      <div id="data">
+      </div>
+      <br><br>
+      <button id="loadtask">Load Tasks</button>
+    </div>
+  </body>
+</html>
